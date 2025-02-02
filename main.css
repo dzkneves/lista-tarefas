@@ -57,3 +57,7 @@ ul li{
     font-size: 18px;
     font-weight: bold;
 }
+
+.confirmacao {
+    text-decoration: solid 3px line-through;
+}

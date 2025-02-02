@@ -9,6 +9,6 @@ $(document).ready(function() {
     });
     
     $('ul').on('click', 'li', function() {
-        $(this).css("text-decoration", "solid 3px line-through");
+        $(this).toggleClass('confirmacao');
     });
 })
